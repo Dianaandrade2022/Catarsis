@@ -1,0 +1,4 @@
+body{
+    background-image: url(../img/Fondos/bienvenido_fondo1.png);
+    backdrop-filter: blur(3px);
+}

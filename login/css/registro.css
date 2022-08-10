@@ -1,0 +1,201 @@
+/* registro */
+body{
+    background-position: 85% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-image: url(../../img/Fondos/registrobackground.png);
+    background-color:#fbf0fb;
+}
+
+.leer:hover{
+    text-decoration:underline rgb(101, 101, 101);
+}
+
+.contenedor_todo{
+     top: 200px;
+      width: 90%;
+      max-width: 800px;
+      position: relative;
+      box-shadow: 8px 8px 10px #41414188;
+      backdrop-filter: blur(20px);
+      border-radius: 15px;
+      left: 10px;
+      align-items: center;
+  }
+.cajatrasera{
+    width: 100%;
+    padding: 70px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    background-color: #f45bf456;    
+    border-radius: 15px;
+    align-items: center;
+}
+.cajatrasera div{
+    margin: 10px 40px;
+    transition: all 50ms;
+}
+.cajatrasera div p,
+.cajatrasera div button{
+margin-top: 20px;
+}
+.cajatrasera div h3{
+    left: 10px;
+    font-weight: 350px;
+    font-size: 23px;
+    padding-bottom: 10px;
+    font-variant:small-caps ;
+}
+.cajatrasera div button{
+    left: 10px;
+    padding: 12px 40px;
+    font-size: 15px;
+    font-weight: 200px;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    background-color: #399aea70;
+    border-radius: 5px;
+}
+.cajatrasera div button:hover{
+    background-color: #3182c494;
+    color: white;
+}
+
+/* Formularios */
+.loginregistro form{
+    width: 41%;
+    padding: 50px 20px;
+    background-color: #bbefff;
+    position: absolute;
+    border-radius: 10px;
+    top: -390px;
+    opacity: 1;
+    box-shadow: -3px 3px 6px#4e4e4e;
+    font-variant:small-caps ;
+}
+.loginregistro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 790px;
+    position: relative;
+    left:10px;
+    transition: left 500ms cubic-bezier(0.175,0.875,0.320,1.275);
+}
+.loginregistro form h2 {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #000000;
+    margin-bottom: 10%;
+}
+.loginregistro form input {
+    width: 90%;
+    margin-top: 20px;
+    padding: 9px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.loginregistro form button{
+    padding: 13px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: #55a1e094;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 10%;
+}
+.form_login{
+    max-width: -100px;
+    opacity: 1;
+    display: block;
+}
+.form_registrar{
+    max-width: 320px;
+    opacity: 1;
+    display: none;
+}
+.loginregistro form button{
+    cursor: pointer;
+    outline: none;
+    background-color: #c85bfa;
+    border: none;
+}
+.loginregistro form button:hover{
+    color: black;
+}
+/* Terminos y condiciones */
+.Terminos{
+position: relative;
+
+}
+
+.Terminos p{
+    display: inline-block;
+    text-align: center;
+}
+.container {
+    background-color:#bb6d99;
+    width: fit-content;
+}
+.ts_parrafo{
+    padding: 13px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 10%;
+}
+.Terminos p:hover{
+    color:  blueviolet;
+    cursor: pointer;
+}
+
+/* Trabajando en el responsive design */
+
+@media screen and (max-width: 850px){
+
+.cajatrasera{
+    max-width: 480px;
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  
+}
+.cajatrasera div{
+    margin: 0;
+    position: absolute;
+}
+
+/* Formulario */
+.loginregistro form{
+    top: -10px;
+    left: -5px;
+    position: relative;
+    width: auto;
+    margin: auto;
+}
+.contenedor_todo{
+    top: 150px;
+    width: auto;
+     box-shadow: 1px 8px 5px #5959595b;
+     backdrop-filter: blur(10px);
+     align-items: center;
+}
+
+
+}
+/* registro */

@@ -1,0 +1,95 @@
+
+.contenedor{
+    padding: 25px 10px ;
+}
+form{
+    padding: 40px 30px;
+    display: grid;
+    grid-column: auto auto;
+    width: 80%;
+    border-radius: 5px;
+    align-self: center;
+    border-left: 10px solid blueviolet;
+    box-shadow: 0px 2px 0px rgba(137, 43, 226, 0.25);
+    backdrop-filter: blur(3px);
+}  
+body{
+    background-image: url(../img/Fondos/fondo3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+input{
+    margin-left: 20px;
+    padding: 5px;
+}
+.label{
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(194, 194, 255);
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+#imagen1{
+    display: none;
+}
+.inputd{
+    outline: none;
+    border:none;
+    border-bottom: 2px solid rgb(53, 53, 255);
+    box-shadow: 1px 1px 4px #fffbb685;
+    border-radius: 3px;
+}
+select{
+    border: none;
+    border-bottom: 2px solid rgb(53, 53, 255);
+    padding: 7px;
+    outline: none;
+    box-shadow: 1px 1px 4px rgb(53, 53, 255,0.255);
+    border-radius: 3px;
+}
+
+form h2{
+    color: #7f6394;
+    padding: 10px;
+}
+.botonst{
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 15px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    border: 1px double rgb(192, 209, 255);
+    box-shadow: 0px 0px 5px rgb(192, 209, 255);
+    font-size: 17px;
+    margin: 10px 250px;
+}
+.block{         
+    font-variant: small-caps;
+    padding: 20px;
+}
+form p{
+    font-size: large;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:1100px){
+    .botonst{
+        margin:10px 150px;
+    }
+    
+}
+@media screen and (max-width:820){
+    .botonst{
+        margin:10px 0px;
+    }
+    
+}
+@media screen and (max-width:780px){
+
+inputf{
+    border: none;
+ }
+}

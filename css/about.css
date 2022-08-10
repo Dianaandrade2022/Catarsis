@@ -1,0 +1,68 @@
+/* sobre nosotros */
+@font-face {
+    font-family: caviar;
+    src: url('../fonts/CaviarDreams.ttf');
+}
+
+.h-vh{
+    height: 50vh;
+}
+.slidert{
+    font-variant: small-caps;
+}
+.control i{
+    color: black;
+    font-size: 30px;
+}
+#comofunciona{
+    background-image: url(../img/Fondos/fondot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedorcard{
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    background-color: rgba(129, 129, 255, 0.157);
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px gray;
+    align-items:stretch;
+}
+.card-img-top{
+    height: 30vh;
+}
+.caption{
+    top: 100px;
+    padding: 30px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-variant: small-caps;
+}
+.caption h3{
+    font-size: 25px;
+    font-variant: small-caps;
+}
+.caption h5{
+    top: 13px;
+    font-size: 17px;
+}
+h5{
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+p{
+text-align: justify;
+padding: 10px 6%;
+font-size: 1.3vw;
+}
+
+h2,h3{
+    font-variant: small-caps;
+}
+/* sobre nosotros */

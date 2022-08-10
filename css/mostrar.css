@@ -1,0 +1,21 @@
+input{
+    margin: 5px;
+    border: 1px solid rgba(128, 0, 128, 0.337);
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+select{
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(251, 236, 251, 0.789);
+    padding: 3px;
+    width: 80px;
+}
+div h3{
+    font-variant-caps: all-petite-caps;
+}
+div p{
+    font-size: 20px;
+}

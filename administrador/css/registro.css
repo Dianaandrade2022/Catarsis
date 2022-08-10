@@ -1,0 +1,160 @@
+/* registro */
+body{
+    background-position: 85% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-image: url(../../img/Fondos/fondor2.png);
+    
+}
+
+
+.contenedor_todo{
+     top: 120px;
+      width: 90%;
+      max-width: 800px;
+      position: relative;
+      backdrop-filter: blur(20px);
+      border-radius: 15px;
+      left: 10px;
+      justify-content: center;
+  }
+.cajatrasera{
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    backdrop-filter: blur(20px);
+    background-color: #aeddfcd8;    
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px#4e4e4ea9;
+    align-items: center;
+}
+.cajatrasera div{
+    margin: 10px 40px;
+    transition: all 50ms;
+}
+.cajatrasera div p,
+.cajatrasera div button{
+margin-top: 20px;
+}
+.cajatrasera div h3{
+    left: 10px;
+    font-weight: 350px;
+    font-size: 23px;
+    padding-bottom: 10px;
+    font-variant:small-caps ;
+}
+.loginregistro form button:hover{
+    background-color: #c4317d94;
+    border: none;
+}
+
+/* Formularios */
+.loginregistro form{
+    width: 41%;
+    padding: 50px 20px;
+    background-color: #aeaefc;
+    position: absolute;
+    border-radius: 10px;
+    top: -400px;
+    opacity: 1;
+    box-shadow: -3px 3px 6px#4e4e4ea9;
+    font-variant:small-caps ;
+}
+.loginregistro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 790px;
+    position: relative;
+    left:10px;
+    transition: left 500ms cubic-bezier(0.175,0.875,0.320,1.275);
+}
+.loginregistro form h2 {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #000000;
+    margin-bottom: 10%;
+}
+.loginregistro form input {
+    width: 90%;
+    margin-top: 20px;
+    padding: 9px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.loginregistro form button{
+    padding: 13px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 10%;
+}
+.form_login{
+    max-width: -100px;
+    opacity: 0;
+    display: none;
+}
+.form_registrar{
+    max-width: 320px;
+    opacity: 1;
+    display: block;
+}
+
+
+/* Terminos y condiciones */
+
+h2{
+    font-variant: small-caps;
+}
+
+.container {
+    background-color:#bb6d99;
+    width: fit-content;
+}
+
+
+/* Trabajando en el responsive design */
+
+@media screen and (max-width: 850px){
+
+.cajatrasera{
+    max-width: 480px;
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  
+}
+.cajatrasera div{
+    margin: 0;
+    position: absolute;
+}
+
+/* Formulario */
+.loginregistro form{
+    top: -10px;
+    left: -5px;
+    position: relative;
+    width: auto;
+    margin: auto;
+}
+.contenedor_todo{
+    top: 110px;
+    width: auto;
+     box-shadow: 1px 8px 5px #5959595b;
+     backdrop-filter: blur(10px);
+     align-items: center;
+}
+
+
+}
+/* registro */

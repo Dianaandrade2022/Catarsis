@@ -1,0 +1,11 @@
+.btn-customize{
+    background-color: rgb(255, 195, 247);
+}
+.btn-customize:hover{
+    background-color: rgb(231, 170, 223);
+}
+body{
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-image: linear-gradient(rgba(133, 133, 255, 0.256),rgba(145, 226, 255, 0.371),rgba(162, 246, 198, 0.396),rgba(254, 106, 239, 0.281));
+}
