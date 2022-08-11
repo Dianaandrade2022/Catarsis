@@ -17,6 +17,14 @@ else if(isset($_SESSION['correoadmin'])) {
     </script>';
     exit();
   }
+  elseif (isset($_SESSION['correocol'])) {
+    echo 
+    '<script>
+    alert("Ya tiene una cuenta como colaborador como'.$_SESSION['correocol'].'");
+    window.location ="indexcolaborador.php";
+    </script>';
+    exit();
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">

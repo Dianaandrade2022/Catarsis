@@ -39,8 +39,10 @@ $paisp = $_POST ['paisp'];
 $regionp = $_POST ['regionp'];
 $municipiop = $_POST ['municipiop'];
 
-$insertarp = $con -> prepare("INSERT INTO `persona`( `telefono`, `direccion`, `nombre`, `ApellidoM`, `ApellidoP`, `Fecha_Nacimiento`, `tipo_persona`, `foto_perfil`, `pais`, `region`, `municipio`,`id_usuario`)
-VALUES('$telefonop','$direccionp','$nombrep','$ApellidoPp','$ApellidoMp','$Fechap','$Persona','$imagen1','$paisp','$regionp','$municipiop','$varid')");
+$insertarp = $con -> prepare("INSERT INTO `persona`( `telefono`, `direccion`, `nombre`, `ApellidoM`, `ApellidoP`, 
+`Fecha_Nacimiento`, `tipo_persona`, `foto_perfil`, `pais`, `region`, `municipio`,`id_usuario`)
+VALUES('$telefonop','$direccionp','$nombrep','$ApellidoPp','$ApellidoMp','$Fechap','$Persona','$imagen1','$paisp',
+'$regionp','$municipiop','$varid')");
         try {
 
             $conteo_tel= $con->prepare("SELECT telefono FROM persona where telefono = $telefonop");

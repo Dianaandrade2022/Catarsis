@@ -1,6 +1,6 @@
 <!-- php -->
 <?php
-session_start();
+
 if (isset($_SESSION['correo'])) {
   echo 
   '<script>
@@ -42,26 +42,26 @@ else if(isset($_SESSION['correoadmin'])) {
             <i class="material-icons">menu</i>
         </label>
         <div>
-        <a href="http://localhost/catarsis/index.php" class="enlace"><img src="../img/elementos/logohealthy.png" alt=""></a>
+        <a href="../index.php" class="enlace"><img src="../img/elementos/logohealthy.png" alt=""></a>
         </div>
         <ul class="Desplazable">
-            <li><a href="http://localhost/catarsis/index.php"><i class="material-icons">home</i>Inicio</a></li>
-            <li><a href="http://localhost/catarsis/user/sobre.php"><i class="material-icons">people</i>Sobre Nosotros</a></li>
+            <li><a href="../index.php"><i class="material-icons">home</i>Inicio</a></li>
+            <li><a href="../user/sobre.php"><i class="material-icons">people</i>Sobre Nosotros</a></li>
             <li>
             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Mas 
                </button>
                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                 <li><a class="dropdown-item" href="http://localhost/catarsis/user/plan.php"><i class="material-icons">assessment</i>Ver planes</a></li>
-                 <li><a class="dropdown-item" href="http://localhost/catarsis/login/registro.php"><i class="material-icons">person</i>Iniciar Sesion</a></li>
-                 <li><a class="dropdown-item" href="http://localhost/catarsis/user/psicologos.php"><i class="material-icons">person_pin_circle</i>Ver psicologos</a></li>
-                 <li><a class="dropdown-item" href="http://localhost/catarsis/php/adminform.php"><i class="material-icons">https</i>Iniciar como admin</a></li>
+                 <li><a class="dropdown-item" href="../user/plan.php"><i class="material-icons">assessment</i>Ver planes</a></li>
+                 <li><a class="dropdown-item" href="../login/registro.php"><i class="material-icons">person</i>Iniciar Sesion</a></li>
+                 <li><a class="dropdown-item" href="../user/psicologos.php"><i class="material-icons">person_pin_circle</i>Ver psicologos</a></li>
+                 <li><a class="dropdown-item" href="../php/adminform.php"><i class="material-icons">https</i>Iniciar como admin</a></li>
                </ul>
             </li>
         </ul>
         <div class="usuario">
-            <a href="http://localhost/catarsis/login/registro.php"><img src="../img/elementos/user.png" alt=""></a>
-            <a href="http://localhost/catarsis/login/registro.php" style="text-decoration: none; line-height: 80px;"><h3> Iniciar Sesion</h3></a>
+            <a href="../login/registro.php"><img src="../img/elementos/user.png" alt=""></a>
+            <a href="../login/registro.php" style="text-decoration: none; line-height: 80px;"><h3> Iniciar Sesion</h3></a>
         </div>
     </nav>
 
@@ -77,7 +77,7 @@ else if(isset($_SESSION['correoadmin'])) {
             <img src="../img/elementos/banner.png" class="d-block w-100 h-vh" alt="info-">
             <div class="carousel-caption d-md-block d-sm-block">
                 <h2 class="slidert">Objetivo Organizacional</h2>
-                <p style="font-size:1vw;">Contar con profesionales que ayuden a reducir el porcentaje de las
+                <p>Contar con profesionales que ayuden a reducir el porcentaje de las
               enfermedades como depresión, estrés y ansiedad. Así ofrecer un
               espacio de atención, reflexión y análisis con los aspectos
               relacionados con el comportamiento, familia, la salud mental, la
@@ -89,7 +89,7 @@ else if(isset($_SESSION['correoadmin'])) {
             <img src="../img/elementos/bannerG.png" class="d-block w-100 h-vh" alt="info-">
             <div class="carousel-caption d-md-block d-sm-block">
                 <h2 class="slidert">MISIÓN</h2>
-                <p style="font-size:1vw;">Nuestra estrategia es hacer crecer el negocio a nivel local y
+                <p>Nuestra estrategia es hacer crecer el negocio a nivel local y
                 regional, para mejorar la experiencia del
                 cliente con un enfoque en cuidar la salud de aquellas personas que
                 necesiten un apoyo emocional, compartir nuestro propósito con el
@@ -100,7 +100,7 @@ else if(isset($_SESSION['correoadmin'])) {
             <img src="../img/elementos/banner3_1.png" class="d-block w-100 h-vh" alt="info-">
             <div class="carousel-caption d-md-block d-sm-block">
                 <h2 class="slidert">Visión</h2>
-                <p style="font-size:1vw;">Nos vemos a futuro como una empresa capaz de renovarse a sí misma
+                <p>Nos vemos a futuro como una empresa capaz de renovarse a sí misma
                 para poder ofrecer nuestros servicios y que estos sean cada vez más
                 precisos, eficientes y tecnológicos. Buscamos crear una página capaz
                 de brindar un diagnóstico tan preciso y verídico como ningún otro,
@@ -133,11 +133,11 @@ else if(isset($_SESSION['correoadmin'])) {
   
     <div class="card col mt-4 col-6 border-0">
       <h2 class="title-card text-center text-primary">Colaborador</h2>
-      <p class="text-card" style="font-size:1.3vw;">Necesitaras rellenar un formulario para completar tus datos y seleccionar el tipo de usuario colaborador. Este te brinda participar con healthymind es decir podrás ser uno de los profesionales que brinda su servicio a través de nuestra página web, sin embargo estos datos no afirman que serás aceptado solo es un requisito para poder solicitar ser colaborador. Por consiguiente tienes que rellenar el formulario de ser colaborador donde adjuntas tus archivos y por consiguiente esperar a que tu solicitud sea aceptada y poder brindar tus servicios.</p>
+      <p class="text-card">Necesitaras rellenar un formulario para completar tus datos y seleccionar el tipo de usuario colaborador. Este te brinda participar con healthymind es decir podrás ser uno de los profesionales que brinda su servicio a través de nuestra página web, sin embargo estos datos no afirman que serás aceptado solo es un requisito para poder solicitar ser colaborador. Por consiguiente tienes que rellenar el formulario de ser colaborador donde adjuntas tus archivos y por consiguiente esperar a que tu solicitud sea aceptada y poder brindar tus servicios.</p>
     </div>
     <div class="card col mt-4 col-6 border-0">
       <h2 class="title-card text-center text-primary">Paciente</h2>
-      <p class="text-card" style="font-size:1.3vw;">Tienes acceso a nuestro test diario una ves que ingreses sesión donde podrás llevar un analísis de cerca al igual si decides unirte a la parte premium puedes contactar con un profesional y llevar dado caso un tratamiento y tener el tipo de consulta de acuerdo a tus disposiciones y necesidades.</p>
+      <p class="text-card">Tienes acceso a nuestro test diario una ves que ingreses sesión donde podrás llevar un analísis de cerca al igual si decides unirte a la parte premium puedes contactar con un profesional y llevar dado caso un tratamiento y tener el tipo de consulta de acuerdo a tus disposiciones y necesidades.</p>
     </div>
   </div>
 </div>

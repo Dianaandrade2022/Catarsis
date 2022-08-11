@@ -1,12 +1,12 @@
 <?php
-session_start();
+  session_start();
 
 
 require_once '../login/php/conexion.php';
 require '../config/prueba.php';
 $database = new database(); 
 $con = $database->conectar();
-  
+
 
     $sql = $con ->prepare("SELECT * FROM colaborador col INNER JOIN persona per ON col.id_persona = per.id_persona WHERE `admin` = 1;");
     $sql->execute();

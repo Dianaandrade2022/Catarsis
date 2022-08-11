@@ -67,7 +67,6 @@ $resultado = $query ->rowCount();
         <ul>
             <li><a href="../indexcolaborador.php"><i class="material-icons">home</i>Inicio</a></li>
             <li><a href="sobre.php" ><i class="material-icons">people</i>Sobre Nosotros</a></li>
-            <li><a href="#" ><i class="material-icons">dvr</i>Contacto</a></li>
      <li><button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
        Mi perfil
       </button>

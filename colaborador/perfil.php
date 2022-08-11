@@ -160,7 +160,6 @@ $query = $query->fetchAll(PDO::FETCH_ASSOC);
 <!------------------- Primer apartado ------------------->
                          <div class="card-1">
                            <div class="titulo">
-                               <h3 class="pb-3">Informacion de contacto</h3>
                            </div>
                            <div class="parrafo">
                                <div class="containerinfo">

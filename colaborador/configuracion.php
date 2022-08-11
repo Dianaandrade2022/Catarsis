@@ -70,7 +70,6 @@ $colab = $colab ->fetchAll(PDO::FETCH_ASSOC);
         <ul>
             <li><a href="../indexcolaborador.php"><i class="material-icons">home</i>Inicio</a></li>
             <li><a href="sobre.php" ><i class="material-icons">people</i>Sobre Nosotros</a></li>
-            <li><a href="#" ><i class="material-icons">dvr</i>Contacto</a></li>
      <li><button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
        Mi perfil
       </button>
@@ -99,7 +98,6 @@ $colab = $colab ->fetchAll(PDO::FETCH_ASSOC);
       <button class="nav-link active" id="v-pills-info-tab" data-bs-toggle="pill" data-bs-target="#v-pills-info" type="button" role="tab" aria-controls="v-pills-info" aria-selected="true">Información personal</button>
       <button class="nav-link" id="v-pills-tipo-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tipo" type="button" role="tab" aria-controls="v-pills-tipo" aria-selected="false">Tipo de usuario</button>
       <button class="nav-link" id="v-pills-datos-tab" data-bs-toggle="pill" data-bs-target="#v-pills-datos" type="button" role="tab" aria-controls="v-pills-datos" aria-selected="false">Complemento de datos</button>
-      <button class="nav-link" id="v-pills-contactos-tab" data-bs-toggle="pill" data-bs-target="#v-pills-contactos" type="button" role="tab" aria-controls="v-pills-contactos" aria-selected="false" disabled>Contactos</button>
      </div>
 
      <div class="tab-content" id="v-pills-tabContent">
@@ -361,9 +359,7 @@ function onLoadImage(files){
     </script>
     </div>
 
-     <div class="tab-pane fade" id="v-pills-contactos" role="tabpanel" aria-labelledby="v-pills-contactos-tab" tabindex="0">contactos</div>
 
-   </div>
  </div> 
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

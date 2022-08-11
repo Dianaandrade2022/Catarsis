@@ -34,6 +34,8 @@ if (isset($consul)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Iconos -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6368fe8576.js" crossorigin="anonymous"></script>
+
     <link rel="short icon" href="img/iconos/icon.png">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -73,6 +75,7 @@ if (isset($consul)) {
                  <li><a class="dropdown-item" href="php/plan.php"><i class="material-icons">assessment</i>Ver planes</a></li>
                  <li><a class="dropdown-item" href="login/php/cerrarsesion.php"><i class="material-icons">person</i>Cerrar Sesion</a></li>
                  <li><a class="dropdown-item" href="php/psicologos.php"><i class="material-icons">person_pin_circle</i>Ver psicologos</a></li>
+                 <li><a class="dropdown-item" href="php/mostrar.php"><i class="fa-solid fa-comment-check"></i>Ver test</a></li>
                </ul></li>
       </ul>
    <div class="usuario">

@@ -31,7 +31,8 @@ if (isset($consulta)) {
 
 }
 //verificar datos 
-$query = $con -> prepare ("SELECT * FROM colaborador inner join persona on persona.id_usuario ='.$id.' AND colaborador.id_persona = persona.id_persona");
+$query = $con -> prepare ("SELECT * FROM colaborador inner join persona on persona.id_usuario ='.$id.' 
+AND colaborador.id_persona = persona.id_persona");
 $query ->execute();
 $resultado = $query ->rowCount();
 if ($resultado>0) {

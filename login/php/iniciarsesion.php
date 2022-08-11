@@ -31,7 +31,8 @@ if ($conteo_correo>0) {
              $id_usuario = $id_usuario->fetch(PDO::FETCH_ASSOC);
             $id_usuario = $id_usuario['id_usuario'];
             //verificar que sea colaborador o paciente 
-            $colaborador = $con->prepare("SELECT * FROM colaborador col INNER JOIN persona on col.id_persona = persona.id_persona INNER JOIN usuario on persona.id_usuario = usuario.id_usuario WHERE usuario.id_usuario = $id_usuario;");
+            $colaborador = $con->prepare("SELECT * FROM colaborador col INNER JOIN persona on col.id_persona = persona.id_persona INNER JOIN usuario 
+            on persona.id_usuario = usuario.id_usuario WHERE usuario.id_usuario = $id_usuario;");
             $colaborador ->execute();
             $colaborador = $colaborador->fetch(PDO::FETCH_ASSOC);
             if ($colaborador == '') {
