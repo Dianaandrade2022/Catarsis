@@ -1,31 +1,4 @@
-<!-- php -->
-<?php
-session_start();
-if (isset($_SESSION['correo'])) {
-  echo 
-  '<script>
-  alert("Ya tiene una cuenta como '.$_SESSION['correo'].'");
-  window.location ="index2.php";
-  </script>';
-  exit;
-} 
-else if(isset($_SESSION['correoadmin'])) {
-    echo 
-    '<script>
-    alert("Ya tiene una cuenta administrador como'.$_SESSION['correoadmin'].'");
-    window.location ="indexadmin.php";
-    </script>';
-    exit();
-  }
-  elseif (isset($_SESSION['correocol'])) {
-    echo 
-    '<script>
-    alert("Ya tiene una cuenta como colaborador como'.$_SESSION['correocol'].'");
-    window.location ="indexcolaborador.php";
-    </script>';
-    exit();
-  }
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
